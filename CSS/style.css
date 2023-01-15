@@ -377,6 +377,9 @@
         flex-direction: column;
         margin: 0;
     }
+    .feature{
+        margin-left: 5px;
+    }
     .btn-second{
         left: 30px;
         width: 80%;
