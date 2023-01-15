@@ -109,15 +109,13 @@
     color: #FF900E;
 }
 
-/* ----------------- OUR FEATURES SECTION ----------------- */
+/* ----------------- FEATURES SECTION ----------------- */
 .features{
     margin: 130px 180px 0 180px;
     display: flex;
     gap: 50px;
 }
-.feature{
-    width: 586px;
-}
+
 .feature-title{
     font-weight: 700;
     font-size: 45px;
@@ -375,7 +373,7 @@
         margin: 0;
     }
     .btn-second{
-        left: 120px;
+        left: 0px;
     }
     .facts{
         margin-top: 20px;
