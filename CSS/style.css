@@ -336,9 +336,6 @@
 /* ----------------- FOR MOBILE DEVICES ----------------- */
 
 @media screen and (max-width: 576px) {
-    .header{
-        width: 100%;
-    }
     .nav-section{
         flex-direction: column;
     }   
@@ -351,18 +348,26 @@
         margin: 5px 0 20px 0;
     }
     .btn-primary{
-        margin: 0;
+        margin: 20px 0 0 0;
     }
     .banner-img{
-        display: none;
+        margin: 300px 0 50px 20px;
+        width: 100%;
+    }
+    .banner-img img{
+        width: 80%;
     }
     .our-features{
         flex-direction: column;
-        margin: 250px 0 0 0;
+        margin: 50px 0 0 0;
     }
     .our-feature-01{
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
+        margin-left: 20px;
+    }
+    .our-feature-01 img{
+        width: 80%;
     }
     .our-feature-02{
         padding: 20px 30px;
@@ -373,7 +378,15 @@
         margin: 0;
     }
     .btn-second{
-        left: 0px;
+        left: 30px;
+        width: 80%;
+        height: 150px;
+    }
+    .feature-img{
+        width: 100%;
+    }
+    .feature-img img{
+        width: 100%;
     }
     .facts{
         margin-top: 20px;
@@ -399,8 +412,14 @@
         margin-top: 20px;
         font-size: 40px;
     }
+    .contact-form{
+        margin-left: 10px;
+    }
+    .btn-submit{
+        margin-left: 20px;
+    }
     .footer{
-        margin: 0;
+        margin: 10px;
     }
     .footer-text{
         padding: 20px;
