@@ -1,0 +1,411 @@
+/* ----------------- GOOGLE FONTS LINK ----------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans&display=swap');
+
+/* ----------------- COMMON FOR ALL ----------------- */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ----------------- HEADER ----------------- */
+.header{
+    width: 100%;
+    background: rgba(255, 144, 14, 0.1);
+}
+/* ----------------- NAV SECTION ----------------- */
+.nav-section{
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.nav-bar{
+    margin-top: 63px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+/* ----------------- HEADER TEXT & IMAGE SECTION ----------------- */
+
+.header-section{
+    width: 862px;
+    height: 225px;
+    margin: 100px 529px 0 329px;
+}
+.header-section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+.header-section-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-primary{
+    margin: 30px 20px 0 340px;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #FFFFFF;
+    color: #FF900E;
+    border-radius: 10px;
+    border: 3px solid #FF900E;
+}
+.banner-img{
+    margin: 100px 25px 50px 40px;
+
+}
+
+/* ----------------- OUR FEATURES SECTION ----------------- */
+
+.our-features{
+    display: flex;
+    margin: 85px ;
+}
+.our-feature-01{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+.our-feature-02{
+    padding: 220px 80px;
+}
+.our-feature-title{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.black{
+    font-weight: 700;
+    color: #131313;
+}
+.orange{
+    font-weight: 700;
+    color: #FF900E;
+}
+
+/* ----------------- OUR FEATURES SECTION ----------------- */
+.features{
+    margin: 130px 180px 0 180px;
+    display: flex;
+    gap: 50px;
+}
+.feature{
+    width: 586px;
+}
+.feature-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.feature-desc{
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.feature-box{
+    margin-top: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.feature-box-title{
+    padding: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+.feature-box-desc{
+    padding: 0 20px 20px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-second{
+    position: relative;
+    bottom: 120px;
+    left: -20px;
+    width: 342px;
+    height: 200px; 
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #FF900E;
+    border-radius: 5px;
+    border: none;
+}
+.btn-second span{
+    font-weight: 700;
+    font-size: 65px;
+}
+.btn-second:hover{
+    background-color: #FFFFFF;
+    color: #FF900E;
+    border-radius: 10px;
+    border: 3px solid #FF900E;
+}
+
+/* ----------------- SOME FACTS SECTION ----------------- */
+.facts{
+    margin-top: 60px;
+    margin-left: 180px;
+}
+.facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.facts-desc{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+}
+.fact{
+    margin-top: 130px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+}
+.fact-box{
+    width: 240px;
+    height: 240px;
+    border: 2px solid #FF900E;
+    border-radius: 10px;
+    text-align: center;
+    transition: width 3s, height 3s, transform 3s;
+}
+.fact-box:hover{
+    width: 300px;
+    height: 300px;
+    border: 3px solid #131313;
+    transform: rotate(90deg);
+}
+.fact-box img{
+    margin-top: 20px;
+}
+.numbers{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.fact-box-desc{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* ----------------- SPONSPORS SECTION ----------------- */
+.sponspors{
+    margin: 130px 180px 0 180px;
+}
+.sponspors-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.sponspors-desc{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponspors-logo{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 40px;
+}
+.sponspors-logo img{
+    opacity: 0.3;
+}
+.sponspors-logo img:hover{
+    opacity: 1;
+}
+
+/* ----------------- CONTACT ----------------- */
+.contact{
+    margin: 130px 180px 0 180px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    background-color: #FFF4E7;
+}
+.contact-text{
+    text-align: center;
+    margin-top: 130px;
+}
+.contact-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.contact-info{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.contact-info span{
+    color: blueviolet;
+}
+.social-icons{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+.social-icons img{
+    opacity: 0.5;
+}
+.social-icons img:hover{
+    opacity: 1;
+}
+.contact-form input[type="text"], input[type="email"], textarea{
+    border: none;
+    width: 60%;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+.btn-submit{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+.btn-submit:hover{
+    background-color: #FFFFFF;
+    color: #FF900E;
+    border: 3px solid #FF900E;
+    border-radius: 5px;
+}
+/* ----------------- FOOTER ----------------- */
+.footer{
+    margin: 130px 180px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 10px;
+}
+.footer-text{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    padding: 40px;
+}
+/* ----------------- RESPONSIVE ----------------- */
+
+/* ----------------- FOR MOBILE DEVICES ----------------- */
+
+@media screen and (max-width: 576px) {
+    .header{
+        width: 100%;
+    }
+    .nav-section{
+        flex-direction: column;
+    }   
+    .nav-bar{
+        flex-direction: column;
+    } 
+    .header-section{
+        width: 100%;
+        text-align: center;
+        margin: 5px 0 20px 0;
+    }
+    .btn-primary{
+        margin: 0;
+    }
+    .banner-img{
+        display: none;
+    }
+    .our-features{
+        flex-direction: column;
+        margin: 250px 0 0 0;
+    }
+    .our-feature-01{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+    .our-feature-02{
+        padding: 20px 30px;
+        margin-bottom: 20px;
+    }
+    .features{
+        flex-direction: column;
+        margin: 0;
+    }
+    .btn-second{
+        left: 120px;
+    }
+    .facts{
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .fact{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+    .sponspors{
+        margin: 50px 0 0 50px;
+    }
+    .sponspors-logo{
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        margin-left: 50px;
+    }
+    .contact{
+        flex-direction: column;
+        margin: 30px 10px 10px 10px;
+    }
+    .contact-text{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .footer{
+        margin: 0;
+    }
+    .footer-text{
+        padding: 20px;
+    }
+
+}
